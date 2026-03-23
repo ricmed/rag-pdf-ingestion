@@ -1,0 +1,35 @@
+# PDF parsing engine
+opendataloader-pdf==2.0.2
+
+# LangChain integration for OpenDataLoader PDF
+langchain-opendataloader-pdf==2.0.0
+
+# LangChain core and integrations
+langchain-core==1.2.20
+langchain-community==0.4.1
+langchain-text-splitters==1.1.1
+
+# LLM providers (install only what you use)
+langchain-openai==1.1.11        # OpenAI / Azure OpenAI
+langchain-anthropic==1.4.0      # Anthropic Claude
+langchain-cohere==0.5.0         # Cohere
+langchain-huggingface==1.2.1    # HuggingFace local models
+langchain-ollama==1.0.1         # Ollama local models
+ollama==0.6.1                   # Ollama Python client (required by langchain-ollama)
+
+# Embedding models
+sentence-transformers==5.3.0    # Open, local, CPU/GPU
+
+# Vector store
+faiss-cpu==1.13.2               # Use faiss-gpu instead if CUDA is available
+
+# API clients
+openai==2.29.0
+cohere==5.20.7
+
+# ML / numerics
+torch==2.10.0                   # Required for sentence-transformers and HuggingFace pipelines
+numpy==2.4.3                    # faiss-cpu 1.13.2 supports numpy 2.x natively
+
+# CLI utilities
+tqdm==4.67.3

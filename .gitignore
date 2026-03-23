@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Type checking / linting caches
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Pipeline data (SQLite DB + FAISS index — not committed)
+rag_pipeline/data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+logs/
+
+# Replit internal
+.local/
+.cache/
+.pythonlibs/
+.replit
